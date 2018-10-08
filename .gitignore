@@ -1,0 +1,8 @@
+/docker/data/dump/*
+/docker/data/postgresql/*
+/docker/images/php/1
+/docker/nginx/logs/*
+/docker/php/php.ini
+/moodledata/*
+.idea
+app/*
