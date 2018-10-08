@@ -5,3 +5,42 @@
 /docker/php/php.ini
 /moodledata/*
 .idea
+
+# This file specifies intentionally untracked files that all Moodle git
+# repositories should ignore. It is recommended not to modify this file in your
+# local clone. Instead, use .git/info/exclude and add new records there as
+# needed.
+#
+# Example: if you deploy a contributed plugin mod/foobar into your site, put
+# the following line into .git/info/exclude file in your Moodle clone:
+# /mod/foobar/
+#
+# See gitignore(5) man page for more details
+#
+app/config.php
+app/lib/editor/tinymce/extra/tools/temp/
+*~
+*.swp
+app/tags
+app/TAGS
+app/cscope.*
+app/.patches/
+app/.idea/
+app/nbproject/
+CVS
+.DS_Store
+app/.settings/
+app/.project
+app/.buildpath
+app/.cache
+phpunit.xml
+# Composer support. Do not ignore composer.json, or composer.lock. These should be shipped by us.
+composer.phar
+app/vendor/
+app/behat.yml
+*/yui/build/*/*-coverage.js
+app/lib/yuilib/*/build/*/*-coverage.js
+# lib/yuilib/version/module/module-coverage.js
+app/lib/yuilib/*/*/*-coverage.js
+atlassian-ide-plugin.xml
+app/node_modules/
